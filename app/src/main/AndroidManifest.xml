@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppNest"
         tools:targetApi="31">
         <activity
+            android:name="com.tigasinestor.imcDesarrollo.ResultadoImcByTigasiNestorActivity"
+            android:exported="false" />
+        <activity
             android:name="com.tigasinestor.imcDesarrollo.ImcNestorTigasiActivity"
             android:exported="false" />
         <activity
