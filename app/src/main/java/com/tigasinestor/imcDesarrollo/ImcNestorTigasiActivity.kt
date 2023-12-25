@@ -107,7 +107,7 @@ class ImcNestorTigasiActivity : AppCompatActivity() {
         btnCalculate.setOnClickListener{
             val imc:Double = calcularIMC()
             val intent = Intent(this,ResultadoImcByTigasiNestorActivity::class.java)
-            intent.putExtra("IMC",imc)
+            intent.putExtra("IMC",imc.toString())
             startActivity(intent)
         }
 
